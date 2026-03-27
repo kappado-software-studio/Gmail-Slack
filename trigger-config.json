@@ -1,0 +1,20 @@
+{
+  "trigger_id": "trig_01TjACBzjZpogm9VLKSJDiH3",
+  "name": "Gmail未読要約→Slack #test",
+  "schedule": "毎日 6:00 AM JST (cron: 0 21 * * * UTC)",
+  "url": "https://claude.ai/code/scheduled/trig_01TjACBzjZpogm9VLKSJDiH3",
+  "mcp_connections": [
+    {
+      "name": "Gmail",
+      "connector_uuid": "0842d2bd-ef95-47ba-81ea-9309f4c7b971",
+      "url": "https://gmail.mcp.claude.com/mcp"
+    },
+    {
+      "name": "Slack",
+      "connector_uuid": "e2963f19-a776-4ede-8c9a-0fad62386598",
+      "url": "https://slack.mcp.claude.com/mcp"
+    }
+  ],
+  "environment_id": "env_012YASFcJWeAq2CG7WJEG5MB",
+  "model": "claude-sonnet-4-6"
+}
